@@ -1,0 +1,491 @@
+p {
+    margin: 0;
+}
+
+.backgroundCss {
+    background-color: #0A2155;
+}
+
+.contanerView {
+    width: 19.20rem;
+    height: 10.80rem;
+}
+
+.topViewStyle {
+    width: 19.20rem;
+    height: 0.625rem;
+}
+
+.topImageCss {
+    width: 18.55rem;
+    height: 0.625rem;
+    margin-left: 0.26rem;
+}
+
+.topTitleCss {
+    font-size: 0.26rem;
+    position: absolute;
+    top: 0.15rem;
+    display: block;
+    margin-left: 7.8rem;
+    font-weight: 800;
+    color: #CBD8FD;
+}
+
+.middleView {
+    width: 19.20rem;
+    height: 0.6rem;
+    display: flex;
+}
+
+.middleLeftView {
+    width: 2.995rem;
+    height: 0.59rem;
+    margin-left: 0.22rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-image: url("../image/topViewItemImage.png");
+    background-size: cover;
+    cursor: pointer
+}
+
+.warmImageView {
+    width: 0.32rem;
+    height: 0.32rem;
+}
+
+.warmImageContainer {
+    width: 0.32rem;
+    height: 0.32rem;
+    margin-left: 0.14rem;
+    margin-right: 0.145rem;
+    position: relative;
+}
+
+.warmTagView {
+    width: 0.07rem;
+    height: 0.07rem;
+    border-radius: 50%;
+    background: #FF4610;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.warmp1 {
+    font-size: 0.14rem;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.warmp2 {
+    font-size: 0.11rem;
+    color: #BABABA;
+}
+
+.middleLeftView2 {
+    width: 2.995rem;
+    height: 0.59rem;
+    margin-left: 0.165rem;
+    background-image: url("../image/topViewItemImage.png");
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.middleView2P {
+    font-size: 0.14rem;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-left: 0.085rem;
+    margin-right: 0.095rem;
+}
+
+.windImageView {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 0.02rem;
+}
+
+.windImageStyle {
+    width: 0.245rem;
+    height: 0.245rem;
+}
+
+.windTextStyle {
+    font-size: 0.08rem;
+    color: #BABABA;
+    margin-top: 0.04rem;
+}
+
+.middleLeftView3 {
+    flex: 1;
+    flex-direction: row;
+    display: flex;
+    height: 0.59rem;
+    align-items: center;
+    margin-left: 0.17rem;
+}
+
+.p6 {
+    width: 2.155rem;
+    font-size: 0.15rem;
+    font-weight: bold;
+    color: #C5C5C5;
+    display: flex;
+    align-items: center;
+}
+
+.bigp6 {
+    width: 2.35rem;
+}
+
+.span1 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #33CBAC;
+    margin-left: 0.13rem;
+    margin-right: 0.13rem;
+    display: inline-block;
+}
+
+.span2 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #1F9BDB;
+    margin-left: 0.13rem;
+    margin-right: 0.13rem;
+    display: inline-block;
+}
+
+.span3 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #F2B048;
+    margin-left: 0.13rem;
+    margin-right: 0.13rem;
+    display: inline-block;
+}
+
+.rightBtnView {
+    width: 1.8rem;
+    height: 0.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0.315rem;
+    background-size: 100%;
+    background-image: url("../image/btnImageBg.png");
+}
+
+.rightBtnViewWarm {
+    width: 1.8rem;
+    height: 0.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0.315rem;
+    background-size: 100%;
+    background-image: url("../image/btnImageWarnBg.png");
+}
+
+.btnTextViewWarm {
+    font-size: 0.18rem;
+    font-weight: bold;
+    color: #FF4610;
+}
+
+.btnTextView {
+    font-size: 0.18rem;
+    font-weight: bold;
+    color: #2BC667;
+}
+
+.bodyView {
+    width: 19.20rem;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 0.12rem;
+    padding-left: 0.15rem;
+    min-height: 8.8rem;
+}
+
+.itemView {
+    width: 2.995rem;
+    height: 2.84rem;
+    margin: 0.07rem;
+    /*border: 1px solid #518FAF;*/
+    /*border-radius: 3px;*/
+    /*box-sizing: border-box;*/
+    /*box-shadow: darkgrey 0px 0px 5px 0.5px inset;*/
+    background-image: url("../image/itemImageIcon.png");
+    background-size: cover;
+}
+
+.itemTopView {
+    height: 0.2rem;
+    width: 2.995rem;
+    margin-top: 0.3rem;
+    flex-direction: row;
+    display: flex;
+
+}
+
+.roomTextStyle {
+    display: flex;
+    flex: 1;
+    padding-left: 0.19rem;
+    font-size: 0.21rem;
+    font-weight: bold;
+    color: #FFFFFF;
+    line-height: 0.12rem;
+}
+
+.circleStyle {
+    width: 0.1265rem;
+    height: 0.1265rem;
+    background: #34CBAD;
+    border-radius: 50%;
+    margin-right: 0.16rem;
+}
+
+.itemMiddleView {
+    width: 2.63rem;
+    height: 0.49rem;
+    background: #0B204C;
+    border-radius: 3px;
+    border: 0.01rem solid #88E7FF;
+    margin-left: 0.185rem;
+    margin-top: 0.15rem;
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.p1 {
+    display: flex;
+    flex: 1;
+    font-size: 0.12rem;
+    font-weight: 500;
+    color: #FFFFFF;
+    margin-left: 0.15rem;
+}
+
+.p2 {
+    font-size: 0.25rem;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.p3 {
+    font-size: 0.14rem;
+    font-weight: 500;
+    color: #FFFFFF;
+    margin-right: 0.135rem;
+    margin-left: 0.165rem;
+
+}
+
+.itembottomView {
+    width: 2.995rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.iconView {
+    height: 0.42rem;
+    margin-top: 0.25rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.iconImageView {
+    width: 0.42rem;
+    height: 0.42rem;
+    margin-left: 0.225rem;
+    margin-right: 0.11rem;
+}
+
+.p4 {
+    font-size: 0.12rem;
+    font-weight: 500;
+    color: #E1E1E1;
+}
+
+.p5 {
+    font-size: 0.19rem;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-right: 0.1rem;
+}
+
+.warmBg {
+    background-color: rgba(255, 70, 16, 1);
+}
+
+.outlineBg {
+    background-color: grey;
+}
+
+.warm {
+    color: rgba(255, 70, 16, 1);
+}
+
+.bottomViewCss {
+    width: 19.20rem;
+    height: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottomImageCss {
+    width: 4.08rem;
+    height: 0.335rem;
+}
+
+/** 大弹框*/
+.modalCss {
+    margin-top: 2.445rem;
+    width: 11.67rem;
+    height: 5.84rem;
+}
+
+.tableHeadCss {
+    width: 57.92%;
+    height: 45px;
+    background: linear-gradient(0deg, #ECEBEA, #FDFDFD);
+    border: 1px solid #C6C6C8;
+}
+
+.topViewCss {
+    display: flex;
+    flex-direction: row;
+    height: 43px;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.labelViewStyle {
+    text-align: left;
+    margin-right: 12px;
+}
+
+.selectViewStyle {
+    width: 212px;
+    height: 40px;
+    border: 1px solid #D1D3DF;
+    border-radius: 5px;
+}
+
+.tdTextStyle {
+    font-weight: 400;
+    color: #000000;
+    font-size: 15px;
+}
+
+.bottomViewStyle {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.pagination li a {
+    margin: 5px;
+}
+
+.pagination li a.active {
+    margin: 5px;
+    color: #ffffff;
+    background-color: #337ab7;
+    border: solid 1px #337ab7;
+}
+
+/** 大弹框*/
+
+/**切换模式弹框*/
+.changeModalCss {
+    width: 4.3rem;
+    height: 2.925rem;
+    margin-top: 3.575rem;
+}
+
+.changeModalTitle {
+    font-size: 0.21rem;
+    color: #000000;
+}
+
+.changeModalBody {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.changModalP1 {
+    font-size: 0.2rem;
+    font-weight: bold;
+    color: #666666;
+    width: 3.70rem;
+}
+
+.changeModalP2 {
+    color: rgba(255, 70, 16, 1);
+    margin-left: 0.1rem;
+    margin-right: 0.1rem;
+}
+
+.changeModalInput {
+    width: 3.70rem;
+    height: 0.5rem;
+    margin-top: 0.255rem;
+    margin-bottom: 0.27rem;
+    padding: 0.175rem;
+    letter-spacing: 0.1rem;
+    font-size: 0.2rem;
+}
+
+.changeModalBtn {
+    width: 1.30rem;
+    height: 0.50rem;
+    background: #2F7CFB;
+    border-radius: 5px;
+    border: 0;
+    color: #fff;
+}
+
+.changeModalP3 {
+    font-size: 0.2rem;
+    font-weight: bold;
+    color: #2F7CFB;
+    margin-top: 0.2rem;
+    margin-bottom: 0.145rem;
+    cursor: pointer;
+}
+
+.modal-header-new {
+    border-bottom: 0;
+}
+
+/**修改密码弹框*/
+.changePaswordModalCss {
+    width: 4.3rem;
+    height: 3.75rem;
+    margin-top: 3.575rem;
+}
+
+.changePasswordModalBtn {
+    width: 1.30rem;
+    height: 0.50rem;
+    background: #2F7CFB;
+    border-radius: 5px;
+    margin-bottom: 0.2rem;
+    border: 0;
+    color: #fff;
+}
+
+
+
